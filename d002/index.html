@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Conversor de Dolar</title>
+    <title>Conversor de Moedas</title>
 </head>
 <body>
     <main>
         <h1>
-            Conversor de Dolar
+            Conversor de Moedas
         </h1>
         <p>
-            selecione uma moeda para ser convertida
+            selecione as moedas para serem convertidas
         </p>
-        <select id="moeda">
+        <input type="number" min="0" value="1">
+        <select id="moedaBase">
+            <option value="">-moedas-</option>
+            <option value="BRL">Real Brasileiro</option>
+            <option value="JPY">Ien Japones</option>
+            <option value="CAD">Dolar Canadence</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">Libra Esterlina</option>
+        </select>
+        <select id="moedaDestino">
             <option value="">-moedas-</option>
             <option value="BRL">Real Brasileiro</option>
             <option value="JPY">Ien Japones</option>

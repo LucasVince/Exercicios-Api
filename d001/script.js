@@ -1,4 +1,4 @@
-const btnConverter = document.querySelector('#converter');
+const btnConverter = document.querySelector('button');
 const selectMoeda = document.querySelector('#moeda');
 
 btnConverter.addEventListener('click', () => {
